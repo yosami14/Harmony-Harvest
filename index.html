@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Equib</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/ada9dfd0e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- place navbar here -->
+    </header>
+    <main>
+      <!-- Main banner -->
+      <section class="banner">
+        <div class="container-fluid " id="bannerImage">
+          <div class="row">
+            <div
+              class="col col-lg-5 col-12 d-flex justify-content-center align-items-center"
+            >
+              <div>
+                <h2>Welcome to </h2>
+                <h1>Harmony Harvest</h1>
+                <h4>Cultivating Wealth as a Community</h4>
+                <div class="btn-join mt-5">
+                  <a href="#create" class="text-dark">JOIN</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col col-lg-7 col-12">
+              <img src="./img/people-and-technology.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="create">
+        <div class="container">
+          <div class="row my-5">
+            <!-- First Parent col -->
+            <div class="col col-lg-6 px-3">
+              <div class="image">
+                <img
+                  src="./img/person-raising-money (1).png"
+                  alt=""
+                  srcset=""
+                />
+                <p class="px-4">
+                  At Harmony Harvest, we cultivate wealth as a community.
+                  Together, we sow, nurture, and reap a bountiful harvest of
+                  prosperity. Join us in creating a symphony of success.
+                </p>
+              </div>
+            </div>
+            <!-- Second Parent col -->
+            <div class="col col-lg-6 px-3" id="forms">
+              <form>
+                <div class="row">
+                  <div class="col col-lg-6">
+                    <!-- FirstName -->
+                    <div class="mb-3">
+                      <label for="firstNameInput" class="form-label"
+                        >First Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="firstNameInput"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                  </div>
+                  <div class="col col-lg-6">
+                    <!-- Father Name -->
+                    <div class="mb-3">
+                      <label for="fatherNameInput" class="form-label"
+                        >Father Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fatherNameInput"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                  </div>
+                  <!-- UserEmail -->
+                  <div class="col col-lg-6">
+                    <div class="mb-3">
+                      <label for="userEmailInput" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="userEmailInput"
+                        aria-describedby="emailHelp"
+                      />
+                    </div>
+                  </div>
+                  <!-- Phone Input -->
+                  <div class="col col-lg-6">
+                    <div class="mb-3">
+                      <label for="userPhoneNumberInput" class="form-label"
+                        >Phone Number</label
+                      >
+                      <div class="input-group">
+                        <span class="input-group-text">+251</span>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="userPhoneNumberInput"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Contribution -->
+                  <div class="col col-lg-12">
+                    <label for="userContributionInput" class="form-label"
+                      >Contribute</label
+                    >
+                    <div class="input-group mb-3">
+                      <span class="input-group-text">$</span>
+                      <input
+                        type="text"
+                        class="form-control"
+                        aria-label="Amount (to the nearest dollar)"
+                        id="userContributionInput"
+                      />
+                      <span class="input-group-text">.00</span>
+                    </div>
+                  </div>
+                  <!-- Gender -->
+                  <div class="col col-lg-12 mb-4">
+                    <label for="userGenderInput" class="form-label me-3"
+                      >Gender</label
+                    >
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="userGender"
+                        id="userGenderMale"
+                        value="Male"
+                      />
+                      <label class="form-check-label" for="userGenderMale"
+                        >Male</label
+                      >
+                    </div>
+                    <div class="form-check form-check-inline">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="userGender"
+                        id="userGenderFemale"
+                        value="Female"
+                      />
+                      <label class="form-check-label" for="userGenderFemale"
+                        >Female</label
+                      >
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <button
+                type="button"
+                class="btn btn-primary mt-3"
+                id="collectDataBtn"
+              >
+                submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================
+        Second Container(Table)
+      ================= -->
+      <div class="container py-5">
+        <div class="col col-lg-12">
+          <!-- table -->
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Father Name</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Contribution</th>
+                <th scope="col">Date/Time</th>
+                <th scope="col">Edit</th>
+              </tr>
+            </thead>
+            <tbody class="" id="addUserRow">
+              <tr>
+                <th scope="row">1</th>
+                <td>Samuel</td>
+                <td>Yohannes</td>
+                <td>M</td>
+                <td>Sam@gmail.com</td>
+                <td>+2519456123</td>
+                <td>123545</td>
+                <td>Monday</td>
+                <td>Monday</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table class="table">
+            <tbody class="">
+              <tr>
+                <td id="displayTotal">Total:</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Lot Winner
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            onclick="winner()"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            generate
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+          <footer class="container-fluid" id="footer">
+      <div class="row">
+        
+        <div class="col col-lg-12 d-flex justify-content-center align-items-center"><i class="fa-regular fa-copyright p-3"></i> Copyright 2023 IMAS</div>
+      </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="./index.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

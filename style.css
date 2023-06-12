@@ -1,0 +1,113 @@
+/* 
+================================
+Variables
+================================
+*/
+:root {
+  /* --clr-primary: #dedde2; */
+
+  --clr-primary: #ffff;
+  --clr-primary-light: #f2f2f2;
+  --clr-grey-1: #0d0d0d;
+  --clr-grey-5: #555555;
+  --clr-grey-10: #f1f5f8;
+  --ff-primary: "Catamaran", sans-serif;
+  --ff-secondary: "Grand Hotel", cursive;
+  --transition: all 0.3s linear;
+  --spacing: 0.15rem;
+  --radius: 0.5rem;
+  --container-padding: 2% 5% 5%;
+}
+
+main {
+  font-family: var(--ff-primary);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 0.5;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
+p {
+  letter-spacing: 0.05rem;
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  color: var(--clr-grey-5);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header/nav */
+
+/* Button */
+
+.btn-join a {
+  padding: 1rem 3rem;
+  font-weight: 700;
+  background: rgb(255, 255, 255);
+  color: blueviolet;
+  border-radius: 0.5rem;
+  border-bottom: 2px solid blueviolet;
+  border-right: 2px solid blueviolet;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  transition-duration: 1s;
+  transition-property: border-top, border-left, border-bottom, border-right,
+    box-shadow;
+}
+
+.btn-join a:hover {
+  border-top: 2px solid blueviolet;
+  border-left: 2px solid blueviolet;
+  border-bottom: 2px solid rgb(238, 103, 238);
+  border-right: 2px solid rgb(238, 103, 238);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+    rgba(240, 46, 170, 0.2) 15px 15px;
+}
+
+/* banner */
+.banner {
+  padding: 2% 2% 2%;
+}
+
+#create {
+  background-color: #f3ebe9;
+  padding: 2% 1% 2%;
+}
+
+#forms {
+  padding-top: 10%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
