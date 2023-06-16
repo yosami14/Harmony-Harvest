@@ -35,12 +35,12 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: bolder;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 0.5;
   font-weight: lighter;
 }
@@ -117,4 +117,21 @@ img {
 /* display none */
 .displayNon {
   display: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 0.75rem;
+  }
+  .btn-join {
+    display: none;
+  }
 }
